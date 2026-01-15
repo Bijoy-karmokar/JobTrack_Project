@@ -1,15 +1,26 @@
-import React from "react";
+import React, { use, useState } from "react";
 import { Link } from "react-router";
+import { AuthContext } from "../context/AuthContext";
 
 const Register = () => {
+	const {createUser} = use(AuthContext);
+	const[error,setError] = useState('');
 	const handleRegister=(e)=>{
 		e.preventDefault();
 		const name = e.target.name.value;
 		const email = e.target.email.value;
 		const photo = e.target.photo.value;
 		const password = e.target.password.value;
-		console.log({name,email,photo,password});
-		
+		const confirmPassword = e.target.confirmPassword.value;
+		console.log({name,email,photo,password,confirmPassword});
+		createUser(email,password)
+		.then(result=>{
+		    const user = result.user;
+			console.log(user);
+		}).catch(error=>{
+			setError(error.message);
+			
+		})
 	}
   return (
 <div className="flex flex-col max-w-md mx-auto my-6 p-6 rounded-md shadow bg-base-200 sm:p-10 dark:bg-gray-50 dark:text-gray-800">
@@ -44,15 +55,18 @@ const Register = () => {
             {/* confirmPassword */}
 			<div>
 				<div className="flex justify-between mb-2">
-					<label htmlFor="password" className="text-sm">Confirm Password</label>
+					<label htmlFor="confirmPassword" className="text-sm">Confirm Password</label>
 				</div>
-				<input type="password" name="password" id="password" placeholder="*****" className="w-full px-3 py-2 border rounded-md dark:border-gray-300 dark:bg-gray-50 dark:text-gray-800" />
+				<input type="password" name="confirmPassword" id="confirmPassword" placeholder="*****" className="w-full px-3 py-2 border rounded-md dark:border-gray-300 dark:bg-gray-50 dark:text-gray-800" />
 			</div>
 		</div>
 		<div className="space-y-2">
 			<div>
 				<button type="submit" className="w-full px-8 py-3 font-semibold rounded-md bg-primary text-white">Register</button>
 			</div>
+			{
+				error && <small className="text-red-500">{error}</small>
+			}
 			<p className="px-6 text-sm text-center dark:text-gray-600">Already have an account yet?
 				<Link to="/login" className="hover:underline text-blue-500 underline-offset-2 dark:text-violet-600">Login</Link>.
 			</p>
