@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router";
+import JobTrack from "../assets/jobTrack_logo.png"
 
 const Navbar = () => {
     const links=<>
@@ -35,7 +36,10 @@ const Navbar = () => {
             }
           </ul>
         </div>
-        <Link to="/" className="text-xl md:text-2xl lg:text-4xl text-indigo-500 font-bold">Job-Track</Link>
+       <div className="flex">
+          <img className="w-20" src={JobTrack} alt="" />
+         <Link to="/" className="text-xl -ml-2 md:text-2xl lg:text-4xl text-indigo-500 font-bold">Job-Track</Link>
+       </div>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
