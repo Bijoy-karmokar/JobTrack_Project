@@ -3,7 +3,7 @@ import { Link, useLocation, useNavigate } from "react-router";
 import { AuthContext } from "../context/AuthContext";
 
 const Login = () => {
-  const{signInUser} = use(AuthContext);
+  const{signInUser,googleLogin} = use(AuthContext);
   const[error,setError] = useState("");
   // const location = useLocation();
   const navigate = useNavigate();
@@ -22,6 +22,19 @@ const Login = () => {
     })
     
   }
+
+  const handleGoogleLogIn=()=>{
+     googleLogin()
+     .then((result)=>{
+      const user = result.user;
+      console.log(user);
+      navigate("/")
+      
+     })
+     .catch(error=>{
+      setError(error.message);
+     })
+  }
   return (
     <div className="w-full max-w-md p-4 rounded-md shadow bg-base-200 mx-auto my-5 sm:p-8 ">
       <h2 className="mb-3 text-3xl font-semibold text-center">
@@ -37,6 +50,7 @@ const Login = () => {
       </p>
       <div className="my-6 space-y-4">
         <button
+        onClick={handleGoogleLogIn}
           aria-label="Login with Google"
           type="button"
           className="flex items-center justify-center w-full p-4 space-x-4 border rounded-md focus:ring-2 focus:ring-offset-1 dark:border-gray-600 focus:dark:ring-violet-600"
