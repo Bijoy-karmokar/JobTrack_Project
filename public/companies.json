@@ -1,0 +1,232 @@
+[
+  {
+    "id": "comp-001",
+    "name": "Brain Station 23",
+    "logo": "https://brainstation-23.com/wp-content/uploads/2023/05/BS23-Logo.png",
+    "location": "Dhaka, Bangladesh",
+    "website": "https://brainstation-23.com",
+    "industry": "Software Development & IT Services",
+    "jobs": [
+      {
+        "id": "job-bs001",
+        "title": "Senior Full Stack Developer (MERN)",
+        "bannerImage": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800",
+        "location": "Dhaka (Hybrid)",
+        "salary": "BDT 100,000 – 180,000",
+        "jobType": "Full-time",
+        "description": "Lead development of enterprise web applications for global clients.",
+        "requirements": ["5+ years experience", "React + Node.js + TypeScript", "MongoDB/PostgreSQL", "AWS knowledge", "Strong English communication"]
+      }
+    ]
+  },
+  {
+    "id": "comp-002",
+    "name": "Pathao",
+    "logo": "https://pathao.com/assets/images/pathao-logo.svg",
+    "location": "Dhaka, Bangladesh",
+    "website": "https://pathao.com",
+    "industry": "Mobility & Logistics",
+    "jobs": [
+      {"id": "job-ph001", "title": "Senior Flutter Developer", "bannerImage": "https://images.unsplash.com/photo-1551650975-60cb5d043c83?w=800", "location": "Dhaka", "salary": "BDT 90k–160k", "jobType": "Full-time", "description": "Lead mobile app development for rider & customer apps.", "requirements": ["4+ yrs Flutter", "State management (Riverpod/Bloc)", "REST & GraphQL", "CI/CD experience"]},
+      {"id": "job-ph002", "title": "Growth Marketing Manager", "bannerImage": "https://images.unsplash.com/photo-1552581231-26160f608093?w=800", "location": "Dhaka", "salary": "BDT 100k–180k", "jobType": "Full-time", "description": "Drive user acquisition & retention campaigns.", "requirements": ["Performance marketing", "Meta/Google Ads", "App growth experience", "Strong analytics"]}
+    ]
+  },
+  {
+    "id": "comp-003",
+    "name": "bKash Limited",
+    "logo": "https://www.bkash.com/images/logo.svg",
+    "location": "Dhaka, Bangladesh",
+    "website": "https://www.bkash.com",
+    "industry": "Mobile Financial Services",
+    "jobs": [
+      {"id": "job-bk001", "title": "Senior Backend Engineer (Java)", "bannerImage": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800", "location": "Dhaka", "salary": "BDT 120k–220k", "jobType": "Full-time", "description": "Build high-throughput payment systems.", "requirements": ["Java Spring Boot", "Microservices", "Kafka/RabbitMQ", "High availability systems"]}
+    ]
+  },
+  {
+    "id": "comp-004",
+    "name": "Grameenphone Ltd.",
+    "logo": "https://www.grameenphone.com/sites/default/files/inline-images/gp_logo.png",
+    "location": "Dhaka, Bangladesh",
+    "website": "https://www.grameenphone.com",
+    "industry": "Telecommunications",
+    "jobs": [
+      {"id": "job-gp001", "title": "Cloud Security Specialist", "bannerImage": "https://images.unsplash.com/photo-1555949963-aa79d0ebc8fb?w=800", "location": "Dhaka", "salary": "BDT 110k–200k", "jobType": "Full-time", "description": "Secure cloud infrastructure & services.", "requirements": ["AWS/Azure security", "IAM, WAF, CloudTrail", "Security certifications plus"]}
+    ]
+  },
+  {
+    "id": "comp-005",
+    "name": "ShopUp",
+    "logo": "https://images.shopup.tech/logo.png",
+    "location": "Dhaka, Bangladesh",
+    "website": "https://shopup.tech",
+    "industry": "B2B E-commerce & Fintech",
+    "jobs": [
+      {"id": "job-su001", "title": "Senior Product Manager", "bannerImage": "https://images.unsplash.com/photo-1552581231-26160f608093?w=800", "location": "Dhaka (Hybrid)", "salary": "BDT 130k–250k", "jobType": "Full-time", "description": "Own growth & new product verticals.", "requirements": ["5+ yrs PM", "Data-driven", "E-commerce/fintech experience"]}
+    ]
+  },
+  {
+    "id": "comp-006",
+    "name": "10 Minute School",
+    "logo": "https://10minuteschool.com/logo.png",
+    "location": "Dhaka, Bangladesh",
+    "website": "https://10minuteschool.com",
+    "industry": "EdTech",
+    "jobs": [
+      {"id": "job-10ms001", "title": "Content Strategist (STEM)", "bannerImage": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=800", "location": "Dhaka", "salary": "BDT 60k–110k", "jobType": "Full-time", "description": "Plan & create high-quality educational content.", "requirements": ["Teaching background", "Content writing", "STEM knowledge"]}
+    ]
+  },
+  {
+    "id": "comp-007",
+    "name": "Sheba.xyz",
+    "logo": "https://sheba.xyz/logo.png",
+    "location": "Dhaka, Bangladesh",
+    "website": "https://sheba.xyz",
+    "industry": "Home & Lifestyle Services",
+    "jobs": [
+      {"id": "job-sh001", "title": "Full Stack Developer (Laravel + Vue)", "bannerImage": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800", "location": "Dhaka", "salary": "BDT 70k–130k", "jobType": "Full-time", "description": "Develop & maintain service marketplace platform.", "requirements": ["Laravel", "Vue.js", "MySQL", "Payment gateway integration"]}
+    ]
+  },
+  {
+    "id": "comp-008",
+    "name": "Daraz Bangladesh",
+    "logo": "https://static.daraz.com.bd/static/images/logo.png",
+    "location": "Dhaka, Bangladesh",
+    "website": "https://www.daraz.com.bd",
+    "industry": "E-commerce",
+    "jobs": [
+      {"id": "job-dz001", "title": "Senior Data Scientist", "bannerImage": "https://images.unsplash.com/photo-1551288049-b1f4d2e6a0f5?w=800", "location": "Dhaka", "salary": "BDT 120k–220k", "jobType": "Full-time", "description": "Build recommendation & pricing engines.", "requirements": ["Python", "Machine Learning", "Big Data tools", "E-commerce experience"]}
+    ]
+  },
+  {
+    "id": "comp-009",
+    "name": "Chaldal.com",
+    "logo": "https://chaldal.com/logo.png",
+    "location": "Dhaka, Bangladesh",
+    "website": "https://chaldal.com",
+    "industry": "Online Grocery",
+    "jobs": [
+      {"id": "job-cd001", "title": "Android Developer (Kotlin)", "bannerImage": "https://images.unsplash.com/photo-1551650975-60cb5d043c83?w=800", "location": "Dhaka", "salary": "BDT 80k–150k", "jobType": "Full-time", "description": "Develop fast & reliable grocery shopping app.", "requirements": ["Kotlin", "MVVM", "Coroutines/Flow", "3+ years Android"]}
+    ]
+  },
+  {
+    "id": "comp-010",
+    "name": "Shohoz Limited",
+    "logo": "https://www.shohoz.com/logo.png",
+    "location": "Dhaka, Bangladesh",
+    "website": "https://www.shohoz.com",
+    "industry": "Online Ticketing & Travel",
+    "jobs": [
+      {"id": "job-shz001", "title": "DevOps Engineer", "bannerImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=800", "location": "Dhaka", "salary": "BDT 90k–160k", "jobType": "Full-time", "description": "Manage high-traffic ticketing infrastructure.", "requirements": ["AWS/GCP", "Kubernetes", "Terraform", "CI/CD"]}
+    ]
+  },
+  {
+    "id": "comp-011",
+    "name": "Paperfly",
+    "logo": "https://paperfly.com.bd/logo.png",
+    "location": "Dhaka, Bangladesh",
+    "website": "https://paperfly.com.bd",
+    "industry": "Logistics & Last-mile Delivery",
+    "jobs": [
+      {"id": "job-pf001", "title": "Operations Analyst", "bannerImage": "https://images.unsplash.com/photo-1551288049-b1f4d2e6a0f5?w=800", "location": "Dhaka", "salary": "BDT 55k–95k", "jobType": "Full-time", "description": "Optimize delivery routes & operations.", "requirements": ["SQL", "Excel advanced", "Data visualization", "Logistics knowledge"]}
+    ]
+  },
+  {
+    "id": "comp-012",
+    "name": "Meena Bazar",
+    "logo": "https://meenabazar.com.bd/logo.png",
+    "location": "Dhaka, Bangladesh",
+    "website": "https://meenabazar.com.bd",
+    "industry": "Online Grocery & Retail",
+    "jobs": [
+      {"id": "job-mb001", "title": "Digital Marketing Executive", "bannerImage": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=800", "location": "Dhaka", "salary": "BDT 50k–90k", "jobType": "Full-time", "description": "Run performance marketing campaigns.", "requirements": ["Google & Meta Ads", "SEO basics", "Content creation"]}
+    ]
+  },
+  {
+    "id": "comp-013",
+    "name": "BDJobs.com",
+    "logo": "https://www.bdjobs.com/logo.png",
+    "location": "Dhaka, Bangladesh",
+    "website": "https://www.bdjobs.com",
+    "industry": "Online Recruitment",
+    "jobs": [
+      {"id": "job-bdj001", "title": "Frontend Engineer (React)", "bannerImage": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800", "location": "Dhaka", "salary": "BDT 70k–130k", "jobType": "Full-time", "description": "Build & maintain job portal frontend.", "requirements": ["React", "Next.js", "TypeScript", "Responsive design"]}
+    ]
+  },
+  {
+    "id": "comp-014",
+    "name": "Evaly (Revived)",
+    "logo": "https://evaly.com.bd/logo.png",
+    "location": "Dhaka, Bangladesh",
+    "website": "https://evaly.com.bd",
+    "industry": "E-commerce",
+    "jobs": [
+      {"id": "job-ev001", "title": "UI/UX Designer", "bannerImage": "https://images.unsplash.com/photo-1559028012-481c04fa06cb?w=800", "location": "Dhaka", "salary": "BDT 60k–110k", "jobType": "Full-time", "description": "Design beautiful shopping experience.", "requirements": ["Figma", "User research", "E-commerce UI", "Motion design plus"]}
+    ]
+  },
+  {
+    "id": "comp-015",
+    "name": "Robi Axiata Limited",
+    "logo": "https://www.robi.com.bd/logo.png",
+    "location": "Dhaka, Bangladesh",
+    "website": "https://www.robi.com.bd",
+    "industry": "Telecommunications",
+    "jobs": [
+      {"id": "job-rb001", "title": "Data Engineer", "bannerImage": "https://images.unsplash.com/photo-1551288049-b1f4d2e6a0f5?w=800", "location": "Dhaka", "salary": "BDT 90k–170k", "jobType": "Full-time", "description": "Build data pipelines for telecom analytics.", "requirements": ["Python/Scala", "Spark", "Airflow", "Cloud storage"]}
+    ]
+  },
+  {
+    "id": "comp-016",
+    "name": "Foodpanda Bangladesh",
+    "logo": "https://www.foodpanda.com.bd/logo.png",
+    "location": "Dhaka, Bangladesh",
+    "website": "https://www.foodpanda.com.bd",
+    "industry": "Food Delivery",
+    "jobs": [
+      {"id": "job-fp001", "title": "Restaurant Partnership Manager", "bannerImage": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800", "location": "Dhaka", "salary": "BDT 70k–130k + incentives", "jobType": "Full-time", "description": "Onboard & manage restaurant partners.", "requirements": ["Sales experience", "Relationship management", "Food industry knowledge"]}
+    ]
+  },
+  {
+    "id": "comp-017",
+    "name": "Unitechnologies",
+    "logo": "https://unitechnologiesltd.com/logo.png",
+    "location": "Dhaka, Bangladesh",
+    "website": "https://unitechnologiesltd.com",
+    "industry": "Software Services",
+    "jobs": [
+      {"id": "job-ut001", "title": "Python/Django Developer", "bannerImage": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800", "location": "Dhaka (Remote possible)", "salary": "BDT 60k–120k", "jobType": "Full-time", "description": "Develop web applications for international clients.", "requirements": ["Django", "PostgreSQL", "REST API", "Docker basics"]}
+    ]
+  },
+  {
+    "id": "comp-018",
+    "name": "aamra technologies",
+    "logo": "https://www.aamra.com.bd/logo.png",
+    "location": "Dhaka, Bangladesh",
+    "website": "https://www.aamra.com.bd",
+    "industry": "IT Infrastructure & Services",
+    "jobs": [
+      {"id": "job-aam001", "title": "Network Engineer (L2/L3)", "bannerImage": "https://images.unsplash.com/photo-1563986768609-620da13593e0?w=800", "location": "Dhaka", "salary": "BDT 70k–140k", "jobType": "Full-time", "description": "Design & maintain enterprise networks.", "requirements": ["CCNP/CCIE level", "Routing & Switching", "SD-WAN knowledge"]}
+    ]
+  },
+  {
+    "id": "comp-019",
+    "name": "Nagad Limited",
+    "logo": "https://www.nagad.com.bd/logo.png",
+    "location": "Dhaka, Bangladesh",
+    "website": "https://www.nagad.com.bd",
+    "industry": "Mobile Financial Services",
+    "jobs": [
+      {"id": "job-ng001", "title": "Fraud & Risk Analyst", "bannerImage": "https://images.unsplash.com/photo-1554224155-6726b3ff336f?w=800", "location": "Dhaka", "salary": "BDT 80k–150k", "jobType": "Full-time", "description": "Detect & prevent fraudulent transactions.", "requirements": ["SQL", "Data analysis", "Fraud detection", "Payment domain"]}
+    ]
+  },
+  {
+    "id": "comp-020",
+    "name": "BJIT Ltd",
+    "logo": "https://bjitgroup.com/wp-content/uploads/2022/06/bjit-logo.png",
+    "location": "Dhaka, Bangladesh",
+    "website": "https://bjitgroup.com",
+    "industry": "Global IT Outsourcing",
+    "jobs": [
+      {"id": "job-bj001", "title": "React Native Developer", "bannerImage": "https://images.unsplash.com/photo-1551650975-60cb5d043c83?w=800", "location": "Dhaka / Chattogram", "salary": "BDT 80k–150k", "jobType": "Full-time", "description": "Build cross-platform mobile apps for global brands.", "requirements": ["React Native", "TypeScript", "Redux", "3+ years experience"]}
+    ]
+  }
+]

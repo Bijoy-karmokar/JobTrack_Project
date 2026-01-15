@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link, NavLink } from "react-router";
 import JobTrack from "../assets/jobTrack_logo.png"
+import { AuthContext } from "../context/AuthContext";
 
 const Navbar = () => {
+  const {user} = useContext(AuthContext);
     const links=<>
     <li><NavLink className={({isActive})=>isActive? "bg-indigo-600 font-semibold text-white" :"font-semibold"} to="/">Home</NavLink></li>
     </>
@@ -49,8 +51,8 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end gap-2">
-        <button type="submit" className="text-fg-brand bg-neutral-primary border border-brand hover:bg-brand hover:text-white focus:ring-4 focus:ring-brand-subtle font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none">Login</button>
-        <button type="submit" className="text-fg-brand bg-neutral-primary border border-brand hover:bg-brand hover:text-white focus:ring-4 focus:ring-brand-subtle font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none">Register</button>
+        <NavLink to="/login" type="submit" className="text-fg-brand bg-neutral-primary border border-brand hover:bg-brand hover:text-white focus:ring-4 focus:ring-brand-subtle font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none">Login</NavLink>
+        <NavLink to="/register" type="submit" className="text-fg-brand bg-neutral-primary border border-brand hover:bg-brand hover:text-white focus:ring-4 focus:ring-brand-subtle font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none">Register</NavLink>
       </div>
     </div>
   );

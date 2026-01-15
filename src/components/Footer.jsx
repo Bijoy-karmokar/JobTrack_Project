@@ -89,10 +89,10 @@ const Footer = () => {
           <div className="space-y-3">
             <div className="uppercase dark:text-gray-900">Social media</div>
             <div className="flex justify-start space-x-3">
-             <FaFacebook size={20}></FaFacebook>
-             <FaGithub size={20}></FaGithub>
-             <FaTwitter size={20}></FaTwitter>
-             <FaYoutube size={20}></FaYoutube>
+             <FaFacebook className="text-blue-600" size={25}></FaFacebook>
+             <FaGithub className="text-gray-500" size={25}></FaGithub>
+             <FaTwitter className="text-blue-500" size={25}></FaTwitter>
+             <FaYoutube className="text-red-600" size={25}></FaYoutube>
             </div>
           </div>
         </div>
