@@ -1,7 +1,25 @@
-import React from "react";
+import React, { use, useState } from "react";
 import { Link } from "react-router";
+import { AuthContext } from "../context/AuthContext";
 
 const Login = () => {
+  const{signInUser} = use(AuthContext);
+  const[error,setError] = useState("");
+  const handleLogin =(e)=>{
+    e.preventDefault();
+    const email= e.target.email.value;
+    const password = e.target.password.value;
+    console.log({email,password});
+    signInUser(email,password)
+    .then(result=>{
+      const user = result.user;
+      console.log(user);
+      
+    }).catch(error=>{
+      setError(error.message)
+    })
+    
+  }
   return (
     <div className="w-full max-w-md p-4 rounded-md shadow bg-base-200 mx-auto my-5 sm:p-8 ">
       <h2 className="mb-3 text-3xl font-semibold text-center">
@@ -64,7 +82,7 @@ const Login = () => {
         <p className="px-3 dark:text-gray-600">OR</p>
         <hr className="w-full dark:text-gray-600" />
       </div>
-      <form noValidate="" action="" className="space-y-8">
+      <form onSubmit={handleLogin} className="space-y-8">
         <div className="space-y-4">
           <div className="space-y-2">
             <label htmlFor="email" className="block text-sm">
@@ -100,12 +118,16 @@ const Login = () => {
             />
           </div>
         </div>
+       
         <button
           type="submit"
           className="w-full px-8 py-3 font-semibold rounded-md btn btn-primary"
         >
           Sign in
         </button>
+         {
+          error && <small className="text-red-500">{error}</small>
+        }
       </form>
     </div>
   );
